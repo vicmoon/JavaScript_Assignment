@@ -45,3 +45,7 @@ function integers() {
 }
 
 integers();
+
+function evenOrodd() {
+  let number = prompt("Enter a number please");
+}
