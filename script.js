@@ -31,3 +31,17 @@ function calculateCircumferenceAndSurface() {
   );
 }
 calculateCircumferenceAndSurface();
+
+function integers() {
+  let number = prompt("Enter a number please");
+  let anotherNumber = prompt("Enter another number");
+
+  if (number > anotherNumber) {
+    alert(`${number} is the largest`);
+  }
+  if (number < anotherNumber) {
+    alert(`${anotherNumber} is the lagest`);
+  }
+}
+
+integers();
