@@ -48,4 +48,11 @@ integers();
 
 function evenOrodd() {
   let number = prompt("Enter a number please");
+  if (number % 2 == 0) {
+    alert("Even!");
+  } else {
+    alert("That's an odd number");
+  }
 }
+
+evenOrodd();
