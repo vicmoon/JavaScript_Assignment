@@ -1,6 +1,6 @@
 function calculateDiagonale() {
-  let a = 9;
-  let diagonale = Math.round(Math.sqrt(a));
+  const number = window.prompt("Enter a number");
+  let diagonale = Math.round(Math.sqrt(number));
   alert(`The square diagonale is ${diagonale}`);
   console.log(`The square diagonale is ${diagonale}`);
 }
@@ -8,9 +8,9 @@ function calculateDiagonale() {
 calculateDiagonale();
 
 function calculateArea() {
-  let a = 5;
-  let b = 6;
-  let c = 7;
+  const a = window.prompt("Enter a number");
+  const b = window.prompt("Enter another number");
+  const c = window.prompt("Enter one more number");
   let semiPerim = (a + b + c) / 2;
   let area = Math.round(
     Math.sqrt(semiPerim * (semiPerim - a) * (semiPerim - b) * (semiPerim - c))
@@ -22,7 +22,7 @@ function calculateArea() {
 calculateArea();
 
 function calculateCircumferenceAndSurface() {
-  let radius = 4;
+  const radius = window.prompt("Enter a number");
   let circumferance = Math.round(2 * Math.PI * radius);
   let surfaceArea = Math.round(Math.PI * radius * radius);
   console.log(circumferance);
